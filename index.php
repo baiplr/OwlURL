@@ -1,7 +1,7 @@
 <?php
 
 // Create new MySQLi Database Connection
-$db = new mysqli("localhost","root","","owlurl") or die("Error: Unable to connect to MySQL Database.");
+$db = new mysqli("localhost","root","","linkie") or die("Error: Unable to connect to MySQL Database.");
 // die messages are cool.
 
 // Thanks for this function, StackOverflow
@@ -76,7 +76,7 @@ if(isset($_POST['shorten'])) {
 				<h3 class="panel-title">Shorten a URL</h3>
 			</div>
 			<div class="panel-body">
-				<form action="/" method="POST">
+				<form action="#" method="POST">
 					<div class="input-group">
 						<span class="input-group-addon" id="basic-addon1">http://</span>
 						<input type="text" class="form-control" name="url_to_shorten" value="" placeholder="Paste the link to shorten.">
