@@ -1,6 +1,6 @@
-# OwlURL - Simple & Lightweight PHP URL Shortener
+![](https://cdn.bailey.pt/linkie-banner.png)
 
-OwlURL is a very simple URL Shortener made in PHP that uses a MySQL Database to store links and a .htaccess to perform the handling of links.
+Linkie is a very simple URL Shortener made in PHP that uses a MySQL Database to store links and a .htaccess to perform the handling of links.
 
 ## Quick Start
 1. Download the Source Code
